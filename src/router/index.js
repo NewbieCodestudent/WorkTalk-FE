@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import userRouter from './userRouter'
+import hostRouter from './hostRouter'
 
 const routes = [
   {
@@ -8,6 +9,7 @@ const routes = [
     component: () => import('@/views/MainPage.vue'),
   },
   ...userRouter,
+  ...hostRouter,
 ]
 
 const router = createRouter({

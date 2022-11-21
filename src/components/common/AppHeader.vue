@@ -40,6 +40,8 @@ export default {
     MenuTabView(){
       return this.$store.state.MenuTabView
     },
+    // 주소에 따른 userType 관리
+    
   },
   created(){
     console.log(this.test)

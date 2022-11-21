@@ -43,10 +43,12 @@
       </div>
     </div>
     <div class="menuTabHostpagemove">
-      <span>
-        공급자 페이지로 이동
-        <i class="fa-solid fa-arrow-right" />
-      </span>
+      <router-link to="/host/login">
+        <span>
+          공급자 페이지로 이동
+          <i class="fa-solid fa-arrow-right" />
+        </span>
+      </router-link>
     </div>
   </div>
 </template>
